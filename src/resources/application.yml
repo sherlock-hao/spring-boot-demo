@@ -1,0 +1,17 @@
+server:  
+  port: 8090
+  session-timeout: 30  
+  tomcat.max-threads: 0  
+  tomcat.uri-encoding: UTF-8  
+  
+spring:  
+  datasource:  //数据库配置
+    url : jdbc:mysql://localhost:3306/newbirds  
+    username : root  
+    password : mymysql  
+    driverClassName : com.mysql.jdbc.Driver
+
+作者：渝潼不肖生
+链接：https://www.jianshu.com/p/fb6731ee53d2
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
